@@ -151,6 +151,9 @@ button {
 .margin_top_10 {
   margin-top: 10px;
 }
+.margin_left_50 {
+  margin-left: 50px;
+}
 
 /* Line height */
 .line_height_13 {
@@ -201,6 +204,9 @@ button {
 
 .not_gap {
   gap: 0px;
+}
+.gap_1 {
+  gap: 1px;
 }
 
 .gap_20 {
@@ -489,7 +495,7 @@ button {
   align-items: center;
   text-align: center;
   width: 100%;
-  gap: 10px;
+  gap: 15px;
 }
 .part_11_title {
   font-size: 26px;
@@ -498,7 +504,7 @@ button {
 }
 
 .part_11_content_small {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 300;
 }
 .part_11_button_select {
@@ -513,6 +519,80 @@ button {
 }
 .part_11_button_select_icon {
   width: 20px;
+}
+.part_11_dots_loading {
+  width: 20px;
+}
+.part_11_comment_list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.part_11_comment {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.part_11_comment_img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.part_11_comment_body {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
+    rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+.part_11_comment_name {
+  font-size: 14px;
+  font-weight: 500;
+}
+.part_11_comment_content {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.part_11_comment_rate {
+  width: 12px;
+}
+.part_11_comment_other {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.part_11_comment_interaction {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.part_11_comment_like {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  align-items: center;
+}
+.part_11_comment_like_icon {
+  width: 17px;
+  transform: translateY(-2px);
+}
+.part_11_comment_reply {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(0, 0, 75);
+}
+.part_11_comment_created {
+  font-size: 10px;
+  font-weight: 300;
+  color: gray;
 }
 
 .card {
