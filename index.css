@@ -6,11 +6,9 @@
   --color-yellow-1: #f4dfaf;
   --color-button-1: #ff6a00;
   --color-button-2: #efa13b;
-
   --font-size-content: 16px;
   --font-size-content_small: 15px;
   --font-size-button: 15px;
-
   --color-yellow-text: #fcb817;
   --color-green-text: #036432;
   --color-white-text: #fefbf6;
@@ -239,23 +237,6 @@ button {
   width: 100%;
 }
 
-.divier {
-  width: 70px;
-  border-bottom: 1px solid rgba(175, 173, 173, 0.7);
-}
-.divier_full {
-  width: 100%;
-  border-bottom: 1px solid rgba(175, 173, 173, 0.7);
-}
-
-.cicrle_150 {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 8px solid var(--color-green-2);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
 /* Animation */
 .zoom-in-zoom-out {
   animation: zoom-in-zoom-out 0.8s ease infinite;
@@ -311,6 +292,7 @@ button {
 .button_phone_fixed_img {
   width: 25px;
 }
+
 /* Cart button */
 .button_cart_fixed {
   padding: 8px;
@@ -336,10 +318,62 @@ button {
 .button_cart_fixed_img {
   width: 25px;
 }
-
 .iframe-video-preload {
   width: 100%;
   height: 210px;
+}
+
+/* Card */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  color: var(--color-white-text);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 100%;
+  padding: 25px;
+}
+.card_image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 8px solid var(--color-green-2);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card_image_1 {
+  background-image: url("https://res.cloudinary.com/dy57fdikk/image/upload/v1693556900/trang/358091185_117372794742276_9085068320809372184_n-20230828080617-cwwy4_ffr51o.jpg");
+  background-size: cover;
+}
+.card_name {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--color-green-text);
+}
+.card_content {
+  font-size: var(--font-size-content);
+  line-height: 1.7;
+  text-align: justify;
+  font-weight: 300;
+  color: black;
+}
+
+/* Other */
+.divier {
+  width: 70px;
+  border-bottom: 1px solid rgba(175, 173, 173, 0.7);
+}
+.divier_full {
+  width: 100%;
+  border-bottom: 1px solid rgba(175, 173, 173, 0.7);
+}
+.cicrle_150 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 8px solid var(--color-green-2);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /* CSS */
@@ -357,7 +391,6 @@ button {
   padding: 20px 20px 0 20px;
 }
 
-/* Part */
 .part_1 {
   width: 100vw;
   height: 100vh;
@@ -366,6 +399,7 @@ button {
   background-position: center;
   justify-content: space-between;
 }
+
 .part_2 {
   width: 100vw;
   gap: 15px;
@@ -395,12 +429,14 @@ button {
   padding: 0;
   padding-top: 20px;
 }
+
 .part_4 {
   padding: 0;
 }
+
 .part_5 {
   width: 100vw;
-  gap: 10px;
+  gap: 15px;
 }
 
 .part_6 {
@@ -420,7 +456,6 @@ button {
   width: 50%;
   height: 210px;
 }
-
 .part_8_img_2 {
   width: 50%;
   height: 230px;
@@ -432,6 +467,7 @@ button {
   width: 50%;
   height: 210px;
 }
+
 .part_9 {
   background-image: url("https://res.cloudinary.com/dy57fdikk/image/upload/v1693590721/trang/hhh-20201026010753_ss2ku2.jpg");
   width: 100%;
@@ -478,6 +514,7 @@ button {
 
 .part_10 {
 }
+
 .part_11 {
   width: 100%;
   gap: 15px;
@@ -589,7 +626,6 @@ button {
   color: var(--color-white-text);
   background-image: linear-gradient(var(--color-green-2), var(--color-green-1));
 }
-
 .part_12_title {
   font-size: 20px;
   font-weight: bold;
@@ -606,38 +642,4 @@ button {
 }
 .part_12_info_content {
   font-size: var(--font-size-content);
-}
-.card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  color: var(--color-white-text);
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  width: 100%;
-  padding: 25px;
-}
-.card_image {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 8px solid var(--color-green-2);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-.card_image_1 {
-  background-image: url("https://res.cloudinary.com/dy57fdikk/image/upload/v1693556900/trang/358091185_117372794742276_9085068320809372184_n-20230828080617-cwwy4_ffr51o.jpg");
-  background-size: cover;
-}
-.card_name {
-  font-size: 18px;
-  font-weight: bold;
-  color: var(--color-green-text);
-}
-.card_content {
-  font-size: var(--font-size-content);
-  line-height: 1.7;
-  text-align: justify;
-  font-weight: 300;
-  color: black;
 }
