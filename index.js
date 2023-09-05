@@ -3,6 +3,8 @@ function main() {
   const mainSlider_1 = new Splide("#slider_1", {
     type: "loop",
     pagination: false,
+    speed: 1000,
+    interval: 2000,
     autoplay: true,
   });
   const thumbnailsSlider_1 = new Splide("#thumbnail_slider_1", {
@@ -26,6 +28,8 @@ function main() {
     perMove: 1,
     autoplay: true,
     pagination: false,
+    interval: 2000,
+    speed: 1000,
     gap: 10,
   });
   mainSlider_2.mount();
@@ -35,6 +39,8 @@ function main() {
     type: "loop",
     perPage: 1,
     autoplay: true,
+    interval: 6000,
+    speed: 1000,
   });
   mainSlider_3.mount();
 }
