@@ -328,12 +328,15 @@ button {
 }
 
 /* Card */
+.card_wrap {
+  width: 100vw;
+  padding: 20px;
+}
 .card {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  color: var(--color-white-text);
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   width: 100%;
@@ -348,6 +351,14 @@ button {
 }
 .card_image_1 {
   background-image: url("https://res.cloudinary.com/dy57fdikk/image/upload/v1693556900/trang/358091185_117372794742276_9085068320809372184_n-20230828080617-cwwy4_ffr51o.jpg");
+  background-size: cover;
+}
+.card_image_2 {
+  background-image: url("https://res.cloudinary.com/dy57fdikk/image/upload/v1693924969/trang/278133671_708502280509150_5287296419018370457_n-20230828080752-m9jui_gkp0xl.jpg");
+  background-size: cover;
+}
+.card_image_3 {
+  background-image: url("https://res.cloudinary.com/dy57fdikk/image/upload/v1693924969/trang/365734985_3478411969040436_5360041307444369914_n-20230828081246-vyqud_tmuffk.jpg");
   background-size: cover;
 }
 .card_name {
@@ -449,7 +460,7 @@ button {
 }
 
 .part_7 {
-  width: 100%;
+  width: 100vh;
   gap: 10px;
 }
 
@@ -653,6 +664,9 @@ button {
 .slider_wrap {
   width: 100%;
 }
+.slider_wrap_full {
+  width: 100vw;
+}
 #slider_1 .splide__slide > img {
   width: 100%;
   height: 300px;
@@ -678,4 +692,19 @@ button {
 #thumbnail_slider_1 .splide__slide.is-active {
   opacity: 1;
   border: none;
+}
+
+#slider_2 .splide__slide > img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* #slider_3 .splide__slide {
+  width: 100%;
+  height: 100%;
+} */
+#slider_3 .splide__slide > div {
+  width: 100%;
+  height: 100%;
 }
