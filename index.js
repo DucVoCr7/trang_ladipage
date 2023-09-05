@@ -25,6 +25,7 @@ function main() {
     perPage: 1.5,
     perMove: 1,
     autoplay: true,
+    pagination: false,
     gap: 10,
   });
   mainSlider_2.mount();
