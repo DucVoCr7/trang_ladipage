@@ -343,6 +343,7 @@ button {
   width: 100%;
   height: 665px;
   padding: 25px;
+  background-color: var(--color-white-text);
 }
 .card_image {
   width: 150px;
@@ -525,7 +526,12 @@ body {
 }
 .part_9_time_value {
   background-color: #f8fcf2;
-  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
   font-size: 25px;
   font-weight: 500;
   color: var(--color-green-text);

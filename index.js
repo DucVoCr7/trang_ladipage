@@ -53,5 +53,36 @@ function main() {
     speed: 1000,
   });
   mainSlider_4.mount();
+
+  // Time DESC
+  function countDown1Second(numberHour) {
+    let numberSecond = numberHour * 60 * 60;
+    const elementHour = document.getElementById("hour");
+    const elementMinute = document.getElementById("minute");
+    const elementSecond = document.getElementById("second");
+    setInterval(() => {
+      numberSecond--;
+      const hour = Math.floor(numberSecond / (60 * 60));
+      const minute = Math.floor((numberSecond - hour * 60 * 60) / 60);
+      const second = numberSecond - hour * 60 * 60 - minute * 60;
+      elementHour.innerHTML = hour;
+      elementMinute.innerHTML = minute;
+      elementSecond.innerHTML = second;
+    }, 1000);
+  }
+  countDown1Second(12);
+
+  const listBtnFacebook = document.querySelectorAll("#btn_facebook");
+  const listBtnZalo = document.querySelectorAll("#btn_zalo");
+  listBtnFacebook.forEach((element) => {
+    element.onclick = () => {
+      window.open("https://www.facebook.com/dietmocungtrang1?mibextid=ZbWKwL");
+    };
+  });
+  listBtnZalo.forEach((element) => {
+    element.onclick = () => {
+      window.open("https://zalo.me/0967602036");
+    };
+  });
 }
 main();
