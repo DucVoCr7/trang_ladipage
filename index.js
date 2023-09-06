@@ -43,5 +43,15 @@ function main() {
     speed: 1000,
   });
   mainSlider_3.mount();
+
+  // Slider 4
+  const mainSlider_4 = new Splide("#slider_4", {
+    type: "loop",
+    perPage: 1,
+    autoplay: true,
+    interval: 6000,
+    speed: 1000,
+  });
+  mainSlider_4.mount();
 }
 main();
