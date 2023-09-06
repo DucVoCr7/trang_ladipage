@@ -341,7 +341,7 @@ button {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
     rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
   width: 100%;
-  height: 644px;
+  height: 665px;
   padding: 25px;
 }
 .card_image {
@@ -364,7 +364,7 @@ button {
   background-size: cover;
 }
 .card_name {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   color: var(--color-green-text);
 }
