@@ -98,9 +98,7 @@ function main() {
   };
   const elementBtnCart = document.getElementById("button_cart");
   elementBtnCart.onclick = () => {
-    window.open(
-      "fb-messenger://facewebmodal/f?href=https://www.facebook.com/dietmocungtrang1?mibextid=ZbWKwL"
-    );
+    window.open("fb-messenger://user-thread/dietmocungtrang1");
   };
 }
 main();
