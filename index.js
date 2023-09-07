@@ -81,7 +81,7 @@ function main() {
   listBtnFacebook.forEach((element) => {
     element.onclick = () => {
       window.open(
-        "fb://facewebmodal/f?href=https://www.facebook.com/dietmocungtrang1"
+        "fb://facewebmodal/f?href=https://www.facebook.com/dietmocungtrang1?mibextid=ZbWKwL"
       );
     };
   });
@@ -99,7 +99,7 @@ function main() {
   const elementBtnCart = document.getElementById("button_cart");
   elementBtnCart.onclick = () => {
     window.open(
-      "fb-messenger://facewebmodal/f?href=https://www.facebook.com/messages/t/100013594509779"
+      "fb-messenger://facewebmodal/f?href=https://www.facebook.com/dietmocungtrang1?mibextid=ZbWKwL"
     );
   };
 }
