@@ -90,5 +90,17 @@ function main() {
       window.open("https://zalo.me/0967602036");
     };
   });
+
+  // Xủ lí phone, cart button
+  const elementBtnPhone = document.getElementById("button_phone");
+  elementBtnPhone.onclick = () => {
+    window.open("tel:0967602036");
+  };
+  const elementBtnCart = document.getElementById("button_cart");
+  elementBtnCart.onclick = () => {
+    window.open(
+      "fb-messenger://facewebmodal/f?href=https://www.facebook.com/messages/t/100013594509779"
+    );
+  };
 }
 main();

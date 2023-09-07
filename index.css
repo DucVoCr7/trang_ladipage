@@ -324,7 +324,7 @@ button {
 }
 .iframe-video-preload {
   width: 100%;
-  height: 210px;
+  height: 230px;
 }
 
 /* Card */
@@ -471,6 +471,10 @@ body {
 .part_6 {
   width: 100%;
   gap: 10px;
+}
+.part_6_img_1 {
+  width: 100%;
+  height: auto;
 }
 
 .part_7 {
@@ -761,5 +765,8 @@ body {
   }
   .card {
     height: 700px;
+  }
+  .iframe-video-preload {
+    height: 210px;
   }
 }
