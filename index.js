@@ -76,7 +76,9 @@ function main() {
   const listBtnZalo = document.querySelectorAll("#btn_zalo");
   listBtnFacebook.forEach((element) => {
     element.onclick = () => {
-      window.open("https://www.facebook.com/dietmocungtrang1?mibextid=ZbWKwL");
+      window.open(
+        "fb://facewebmodal/f?href=https://www.facebook.com/dietmocungtrang1?mibextid=ZbWKwL"
+      );
     };
   });
   listBtnZalo.forEach((element) => {
