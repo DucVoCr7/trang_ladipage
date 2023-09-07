@@ -485,18 +485,19 @@ body {
 }
 .part_8_img_1 {
   width: 50%;
-  height: 210px;
+  height: auto;
 }
 .part_8_img_2 {
   width: 50%;
-  height: 230px;
+  height: auto;
 }
 .part_8_img_3 {
   width: 50%;
+  height: auto;
 }
 .part_8_img_4 {
   width: 50%;
-  height: 210px;
+  height: auto;
 }
 
 .part_9 {
@@ -533,7 +534,7 @@ body {
   width: 55px;
   height: 55px;
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 700;
   color: var(--color-green-text);
 }
 .part_9_time_title {

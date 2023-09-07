@@ -62,22 +62,26 @@ function main() {
     const elementSecond = document.getElementById("second");
     setInterval(() => {
       numberSecond--;
+      if (numberSecond < 0) {
+        numberSecond = numberHour * 60 * 60;
+      }
       const hour = Math.floor(numberSecond / (60 * 60));
       const minute = Math.floor((numberSecond - hour * 60 * 60) / 60);
       const second = numberSecond - hour * 60 * 60 - minute * 60;
-      elementHour.innerHTML = hour;
-      elementMinute.innerHTML = minute;
-      elementSecond.innerHTML = second;
+      elementHour.innerHTML = hour > 9 ? hour : `0${hour}`;
+      elementMinute.innerHTML = minute > 9 ? minute : `0${minute}`;
+      elementSecond.innerHTML = second > 9 ? second : `0${second}`;
     }, 1000);
   }
   countDown1Second(12);
 
+  // Xử lí button
   const listBtnFacebook = document.querySelectorAll("#btn_facebook");
   const listBtnZalo = document.querySelectorAll("#btn_zalo");
   listBtnFacebook.forEach((element) => {
     element.onclick = () => {
       window.open(
-        "fb://facewebmodal/f?href=https://www.facebook.com/dietmocungtrang1?mibextid=ZbWKwL"
+        "fb://facewebmodal/f?href=https://www.facebook.com/dietmocungtrang1"
       );
     };
   });
