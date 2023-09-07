@@ -80,7 +80,8 @@ function main() {
   const listBtnZalo = document.querySelectorAll("#btn_zalo");
   listBtnFacebook.forEach((element) => {
     element.onclick = () => {
-      window.open("fb://facewebmodal/1656187458167862");
+      // window.open("fb://facewebmodal/1656187458167862");
+      window.open(`fb://profile?id=${1656187458167862}`);
     };
   });
   listBtnZalo.forEach((element) => {
