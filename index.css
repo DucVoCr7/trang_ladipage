@@ -267,9 +267,6 @@ button {
 .translate_x_40 {
   transform: translateX(40px);
 }
-.translate_xy_40_-15 {
-  transform: translate(40px, -15px);
-}
 
 /* Phone button*/
 .button_phone_fixed {
@@ -428,7 +425,11 @@ body {
   background-position: center;
   justify-content: space-between;
 }
-
+.part_1_img_1 {
+  position: relative;
+  left: 50px;
+  top: -5px;
+}
 .part_2 {
   width: 100%;
   gap: 15px;
