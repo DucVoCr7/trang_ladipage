@@ -81,7 +81,7 @@ function main() {
   listBtnFacebook.forEach((element) => {
     element.onclick = () => {
       // window.open("fb://facewebmodal/1656187458167862");
-      window.open(`fb://profile?id=${1656187458167862}`);
+      window.open(`fb://profile/100046862019589`);
     };
   });
   listBtnZalo.forEach((element) => {
@@ -97,7 +97,7 @@ function main() {
   };
   const elementBtnCart = document.getElementById("button_cart");
   elementBtnCart.onclick = () => {
-    window.open("fb-messenger://user-thread/1656187458167862");
+    window.open("fb-messenger://user-thread/100046862019589");
   };
 }
 main();
