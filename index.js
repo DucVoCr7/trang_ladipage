@@ -81,23 +81,23 @@ function main() {
   listBtnFacebook.forEach((element) => {
     element.onclick = () => {
       // window.open("fb://facewebmodal/1656187458167862");
-      window.open(`fb://profile/100046862019589`);
+      window.open(`fb://profile/100025398189385`);
     };
   });
   listBtnZalo.forEach((element) => {
     element.onclick = () => {
-      window.open("https://zalo.me/0967602036");
+      window.open("https://zalo.me/0972117887");
     };
   });
 
   // Xủ lí phone, cart button
   const elementBtnPhone = document.getElementById("button_phone");
   elementBtnPhone.onclick = () => {
-    window.open("tel:0967602036");
+    window.open("tel:0972117887");
   };
   const elementBtnCart = document.getElementById("button_cart");
   elementBtnCart.onclick = () => {
-    window.open("fb-messenger://user-thread/100046862019589");
+    window.open("fb-messenger://user-thread/100025398189385");
   };
 }
 main();
